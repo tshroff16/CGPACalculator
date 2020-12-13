@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Marks">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="729dp"
+            android:orientation="vertical"
+            android:paddingLeft="100dip"
+            android:paddingTop="10dip"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="1dp">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:paddingLeft="20dip"
+                android:paddingTop="20dip"
+                android:text="Enter your details"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/FName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:ems="10"
+                android:hint="Enter your first name"
+                android:inputType="textPersonName"
+                android:paddingTop="20dip"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/LName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:ems="10"
+                android:hint="Enter your last name"
+                android:inputType="textPersonName"
+                android:paddingTop="20dip"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:paddingLeft="10dip"
+                android:paddingTop="20dip"
+                android:text="Enter your T1 marks"
+                android:textAlignment="inherit"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/T1M1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:ems="10"
+                android:hint="Subject 1"
+                android:inputType="numberDecimal"
+                android:paddingTop="20dip"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/T1M2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:ems="10"
+                android:hint="Subject 2"
+                android:inputType="numberDecimal"
+                android:paddingTop="20dip"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/T1M3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:ems="10"
+                android:hint="Subject 3"
+                android:inputType="numberDecimal"
+                android:paddingTop="20dip"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/T1M4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:ems="10"
+                android:hint="Subject 4"
+                android:inputType="numberDecimal"
+                android:paddingTop="20dip"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/T1M5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:ems="10"
+                android:hint="Subject 5"
+                android:inputType="numberDecimal"
+                android:paddingTop="20dip"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:paddingLeft="10dip"
+                android:paddingTop="20dip"
+                android:text="Enter your T2 marks"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/T2M1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:ems="10"
+                android:hint="Subject 1"
+                android:inputType="numberDecimal"
+                android:paddingTop="20dip"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/T2M2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:ems="10"
+                android:hint="Subject 2"
+                android:inputType="numberDecimal"
+                android:paddingTop="20dip"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/T2M3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Subject 3"
+                android:inputType="numberDecimal"
+                android:paddingTop="20dip"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/T2M4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Subject 4"
+                android:inputType="numberDecimal"
+                android:paddingTop="20dip"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/T2M5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Subject 5"
+                android:inputType="numberDecimal"
+                android:paddingTop="20dip"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:paddingLeft="30dip"
+                android:paddingTop="20dip"
+                android:text="Enter ESE marks"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ESEM1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Subject 1"
+                android:inputType="numberDecimal"
+                android:paddingTop="20dip"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/ESEM2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Subject 2"
+                android:inputType="numberDecimal"
+                android:paddingTop="20dip"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/ESEM3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Subject 3"
+                android:inputType="numberDecimal"
+                android:paddingTop="20dip"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/ESEM4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Subject 4"
+                android:inputType="numberDecimal"
+                android:paddingTop="20dip"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/ESEM5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Subject 5"
+                android:inputType="numberDecimal"
+                android:paddingTop="20dip"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:orientation="horizontal"
+                android:paddingLeft="50dip"
+                android:paddingTop="30dip"
+                android:paddingBottom="50dip">
+
+                <Button
+                    android:id="@+id/insert"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="Insert record"
+                    android:onClick="addRecord" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
